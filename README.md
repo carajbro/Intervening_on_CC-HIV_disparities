@@ -1,6 +1,6 @@
 # **Impact of cervical cancer and HIV interventions on cervical cancer burden among women living with HIV**
 
-This repository includes model outputs for the DRIVE model (cervical cancer incident case counts, crude cervical cancer incidence rates, HIV prevalence) between 2001 and 2071, with projections beginning in 2021.
+This repository includes model outputs for the DRIVE model (cervical cancer incident case counts, crude cervical cancer incidence rates, HIV prevalence) between 2001 and 2071, with future projections beginning in 2021. The analysis is published at https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301997 .
 
 We modeled four additive scenarios:
 
@@ -21,4 +21,4 @@ We modeled four additive scenarios:
 - Enhanced HPV vaccination and cervical cancer screening interventions.
 - Additional HPV vaccination and cervical cancer screening interventions for women living with HIV (50% coverage of 9v HPV catch-up vaccination among young women living with HIV aged 15-24; HPV DNA testing every five years among women living with HIV)
 
-The model outcome files include cervical cancer incident case counts among women aged 15+ ("crudeAnnualCC_[Scenario].xlsx"), crude cervical cancer incidence rates per 100,000 women aged 15+ ("crudeICC_[Scenario].xlsx"), and HIV prevalence among women aged 15+("crudeHivFaged15plus_[Scenario].xlsx"). The cervical cancer outcome files includes separate tabs for outcomes among all women aged 15+ ("General"), as well as outcomes stratified by HIV status: women without HIV ("HIV-"), women living with HIV without ART ("HIV+untreated"), women living with HIV with viral suppression ("HIV+ART"), and all women living with HIV ("HIV+all"). In each file tab, the 28 columns are organized as follows: median, min, max, 25 columns with the 25 best-fitting parameter sets. 
+The model outcome files include cervical cancer incident case counts among women aged 15+ ("crudeAnnualCC_[Scenario].xlsx"), crude cervical cancer incidence rates per 100,000 women aged 15+ ("crudeICC_[Scenario].xlsx"), and HIV prevalence among women aged 15+("crudeHivFaged15plus_[Scenario].xlsx"). The cervical cancer outcome files includes separate tabs for outcomes among all women aged 15+ ("General"), as well as outcomes stratified by HIV status: women without HIV ("HIV-"), women living with HIV without ART ("HIV+untreated"), women living with HIV with viral suppression ("HIV+ART"), and all women living with HIV ("HIV+all"). In each file tab, the 28 columns are organized as follows: median, min, max, 25 columns with the 25 best-fitting parameter sets. Although the rows provide model output from 1980 through 2121, the published analysis only covers between 2001 to 2071.
